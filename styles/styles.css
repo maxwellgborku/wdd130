@@ -30,16 +30,15 @@ aside {
 }
 
 aside img {
-    width: 100%;
+    width: 200px;
     height: var(--height);
     display: block;
 }
 
 aside h2 {
     position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 3rem;
+    top: 30px;
+    left: 40px;
 }
 
 h1 {
