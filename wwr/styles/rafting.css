@@ -7,12 +7,8 @@
 :root {
     --primary-color: #023047;
     /* forest green */
-    --secondary-color: #f4a261;
-    /* warm sand */
     --accent1-color: #1a1a1a;
     /* dark slate blue */
-    --accent2-color: #e9c46a;
-    /* light golden yellow */
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
