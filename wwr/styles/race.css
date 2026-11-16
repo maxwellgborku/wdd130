@@ -1,0 +1,43 @@
+:root {
+    --primary-color: #023047;
+    /* deep navy */
+    --secondary-color: #219EBC;
+    /* river blue */
+    --accent1-color: #FB8500;
+    /* orange */
+    --accent2-color: #FFB703;
+    /* light orange/yellow */
+    --heading-font: Arial, sans-serif;
+    --paragraph-font: Arial, sans-serif;
+}
+
+/* Hero title - keep it clean */
+.hero h1 {
+    background-color: rgb(2 48 71 / 70%);
+    /* navy, see-through */
+    color: white;
+}
+
+/* Article - THIS IS THE BIG FIX */
+.hero article {
+    background-color: rgb(255 255 255 / 90%);
+    /* white, not blue */
+    color: #1A1A1A;
+    border-left: 6px solid #FB8500;
+    /* thin orange line - ties to life jackets */
+}
+
+/* Headings */
+h2 {
+    color: #023047;
+}
+
+/* Footer */
+footer {
+    background-color: #023047;
+    color: white;
+}
+
+footer a {
+    color: #FFB703;
+}
