@@ -18,6 +18,23 @@ body {
     color: var(--accent1-color);
 }
 
+header {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    max-width: 1000px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    text-align: center;
+    justify-content: flex-end;
+}
+
 header,
 main,
 footer {
